@@ -24,6 +24,7 @@ public class AdminsController : ControllerBase
             var admins = await _context.Admins.ToListAsync();
 
             return admins;
+
         }
 
         [HttpGet("{id}")]
@@ -33,6 +34,7 @@ public class AdminsController : ControllerBase
         }
 
     // // Добавить другие методы для выполнения операций CRUD
+    // as
 }
 
 
